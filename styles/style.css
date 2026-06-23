@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'CMURoman';
+    src: url(../fonts/cmunrm.woff2);
+}
+
+body {
+    font-family: 'CMURoman';
+    background-color: #5d6d5d;
+    color: #393437;
+    font-size: 18px;
+    font-style: bold;
+    width: 99vw;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
