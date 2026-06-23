@@ -3,17 +3,49 @@
     src: url(../fonts/cmunrm.woff2);
 }
 
+html,
 body {
     font-family: 'CMURoman';
-    background-color: #5d6d5d;
-    color: #393437;
+    background-color: #728b72;
+    color: #252324;
     font-size: 18px;
     font-style: bold;
-    width: 99vw;
+    margin: 0.5vmax;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    margin: 0%;
 }
 
-.temp {
+header {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    /* grid-template-rows: auto; */
+    gap: 5vw;
+}
+header .icon {
+    max-width: 10vmax;
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+header .headline {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+main {
+    align-items: center;
+    flex: 1;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+footer .badges img {
+    max-height: 10vmax;
+}
+footer .copyright {
+    font-size: 12px;
 }
